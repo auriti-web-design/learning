@@ -1,7 +1,13 @@
-import { Button } from "@/components/ui/button";
+import CoursesHome from "@/components/CoursesHome/coursesHome";
+import HeroHome from "@/components/HeroHome/heroHome";
+import { ModeToggle } from "@/components/navBar/modeToggle";
+
 
 export default function Home() {
   return (
-    <Button>Click me</Button>
+    <>
+      <HeroHome />
+      <CoursesHome />
+    </>
   );
 }
